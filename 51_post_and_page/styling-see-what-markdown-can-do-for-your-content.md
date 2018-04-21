@@ -3,23 +3,40 @@
 
 First don't be scared. It's a big page but it's simple. It shows the possibilities of what you can do with Ghost websites like this one.
 
-Below are a **bunch of examples** you can use to edit your content using **Markdown** in your Ghost editor. You will see how to use *snippet*s to insert a YouTube video, for example.
+Below are a **bunch of examples** you can use to edit your own content in **Markdown** in your Ghost editor. You will see how to use *snippet*s to insert a YouTube video, for example.
 
 In other words, the purpose of the content below is to show you how you can style your content.
 
 ---
 
 
-## General Styling
+## 101 formatting
 
-In short, you can try Ghost on the spot without having to sign up! **This is bold** and this is *italic*.
-
-You can create a *(absolute)* link like this one: [play-with-ghost.com](https://play-with-ghost.com/). Or you can create *(relative)* links to pages and posts within your [own website](../welcome/) as well.
+In short, you can try Ghost on the spot without having to sign up thanks to [play-with-ghost](https://play-with-ghost.com/)! **This is bold** and this is *italic*. You can create a *(absolute)* link like this one: [play-with-ghost](https://play-with-ghost.com/). Or you can create *(relative)* links to pages and posts within your [own website](../welcome/) as well.
 
 Everyone loves straight to the point **bullet points**:
 
 - First rule, be honest
 - Second rule, see rule number one.
+
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
+
+---
+
+
+## Image
+
+
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake. Thanks to [Icons8](https://photos.icons8.com/) for the picture.
+
+![summer-is-the-best-time-of-the-year-2-b](https://pascalandy.com/blog/content/images/2018/04/summer-is-the-best-time-of-the-year-2-b.jpg)
+
+```
+![summer-is-the-best-time-of-the-year-2](https://pascalandy.com/blog/content/images/2018/04/summer-is-the-best-time-of-the-year-2-b.jpg)
+```
+
+
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval sweet and political changes for this pie.
 
 ---
 
@@ -38,18 +55,18 @@ We cannot live without headers. We usually use then to give a title to a paragra
 ---
 
 
-## Lists
+## Numbered List
 
-It looks like all the cool kids are trusting Ghost as their CMS (content management systems). Here is few of them:
+It looks like all the cool kids are trusting Ghost as their CMS (content management systems). Here are few of them:
 
 1. The dating app [Tinder](http://blog.gotinder.com/)
-2. The analystic app [Fullstory](https://blog.fullstory.com/)
+2. The analytic app [Fullstory](https://blog.fullstory.com/)
 3. Stackoverflow and Discourse founder's blog [Codinghorror](https://blog.codinghorror.com/)
 4. The recruiters from [Workshape](http://blog.workshape.io/)
 5. Jannis is a cool coder [blog](https://jann.is/ipad-pro-for-programming/)
 6. IoT gurus from [Resin.io](https://resin.io/blog/)
 
-### Unordered List
+## Unordered List
 
 Here is the things I am doing at the moment (October 2017):
 
@@ -57,29 +74,26 @@ Here is the things I am doing at the moment (October 2017):
     - You can see the **MVP** on [play-with-ghost](https://play-with-ghost.com/).
     - You can see the public **roadmap** on [trello](https://trello.com/b/0fCwwzqc/firepress-public-roadmap).
     - You feel like an **early adopter**? The beta is [open](https://firepress.org/blog/start/). 
-    - As the **CTO | developer** I tackle these [challenges](https://firepress.org/blog/technical-challenges-we-are-facing-now/) everyday.
+    - As the **CTO | developer,** I tackle these [challenges](https://firepress.org/blog/technical-challenges-we-are-facing-now/) every day.
     - You can [listen](https://soundcloud.com/pascalandy/the-why-2016-06-04-20h01) **why** I decided to start this project.
-- My **social life** is pretty much on hold. See why above.
-- Sold my scooter and [bought](https://www.indiegogo.com/projects/mate-the-coolest-ebike-ever-bicycle/x/8878339#/) an **e-bike** instead. 
-- Sold my fancy **car** about 4 weeks. I'm surprise to say I don't miss it. I did this move to put the cash in my startup while as I do bootstrap it.
-- **Crypto** — I'm into Ethereum and betting big time on IOTA.
-    - Been into Bitcoin and [writing](https://pascalandy.com/blog/comment-le-bitcoin-et-le-blockchain-transforment-le-systeme-financier-comme-le-mp3-a-change-lindustrie-de-la-musique/) about it since 2014. 
-- **Health** — I keeping a decent shape at the gym 1-2 a week.
+- Sold my fancy **car** about 4 weeks. I'm surprised to say I don't miss it. I did this move to put the cash in my startup while as I do bootstraps it.
 
 ---
 
 
-## Font awesome icons
+## We <i class="far fa-heart"></i> icons
 
-You have access to above [2700 icons](https://fontawesome.com/icons) thanks to the folks from Font Awesome. Your icon are representer by a short snippets. A snippets is a piece a code. Per example when you paste this in your editor : `<i class="fas fa-camera-retro"></i>` it shows this icon: <i class="fas fa-camera-retro"></i>.
+You have access to above [2700 icons](https://fontawesome.com/icons) thanks to the folks from Font Awesome. Your icon are representer by a short snippets. A snippets is a piece a code.
+
+Per example: `<i class="fas fa-camera-retro"></i>` it shows this icon: <i class="fas fa-camera-retro"></i>.
 
 
-* Stardard size: <i class="fas fa-camera-retro"></i>
-* Large size: <i class="fas fa-camera-retro fa-lg"></i>
-* 2x size: <i class="fas fa-camera-retro fa-2x"></i>
-* 3x size: <i class="fas fa-camera-retro fa-3x"></i>
-* 4x size: <i class="fas fa-camera-retro fa-4x"></i>
-* 5x size: <i class="fas fa-camera-retro fa-5x"></i>
+* <i class="fas fa-camera-retro"></i> is a stardard size.
+* <i class="fas fa-camera-retro fa-lg"></i> is a large size.
+* <i class="fas fa-camera-retro fa-2x"></i> is a 2x size.
+* <i class="fas fa-camera-retro fa-3x"></i> is a 3x size.
+* <i class="fas fa-camera-retro fa-4x"></i> is a 4x size.
+* <i class="fas fa-camera-retro fa-5x"></i> is a 5x size.
 
 You can also animate them:
 
@@ -89,27 +103,53 @@ You can also animate them:
 * <i class="fa fa-cog fa-spin fa-lg fa-fw"></i>
 * <i class="fa fa-spinner fa-pulse fa-lg fa-fw"></i>
 
-Just search the icon you want to use at https://fontawesome.com/icons.
+Just search the icon you want at [Font Awesome](https://fontawesome.com/icons) and rule the web.
 
 ---
 
 
-## Image
+## Table
 
-A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake. Thanks to [Icons8](https://photos.icons8.com/) for the picture.
+Tables are native to markdown.
 
-![summer-is-the-best-time-of-the-year-2-b](https://pascalandy.com/blog/content/images/2018/04/summer-is-the-best-time-of-the-year-2-b.jpg)
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
-```
-![summer-is-the-best-time-of-the-year-2](https://pascalandy.com/blog/content/images/2018/04/summer-is-the-best-time-of-the-year-2-b.jpg)
-```
 
-Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
+| Description                   | Price |
+| :------                       | :--- |
+| Black top pomade              | $25 |
+| Fiber pomade                  | $20 |
+| Free form cream               | $24 |
+| Matte pomade paste            | $24 |
+
+<table class="table is-bordered is-striped is-narrow is-fullwidth">
+<thead>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th> 
+<th>Age</th>
+</tr>
+</thead>
+<tr>
+<td>Jill</td>
+<td>Smith</td> 
+<td>50</td>
+</tr>
+<tr>
+<td>Eve</td>
+<td>Jackson</td> 
+<td>94</td>
+</tr>
+</table>
+
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
 ---
 
 
-# Grid
+## Grid
+
+Grid a great to create pricing lists. This is a placeholder text to give context. 
 
 ### Our Pizzas
 
@@ -157,48 +197,14 @@ Mozzarella di buffala (+4$), Anchovies (+ 1$)</small>
     </div>
 </div>
 
----
-
-
-# Table
-
-A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
-
-| Description                   | Price |
-| :------                       | :--- |
-| Black top pomade              | $25 |
-| Fiber pomade                  | $20 |
-| Free form cream               | $24 |
-| Matte pomade paste            | $24 |
-
-<table class="table is-bordered is-striped is-narrow is-fullwidth">
-<thead>
-<tr>
-<th>Firstname</th>
-<th>Lastname</th> 
-<th>Age</th>
-</tr>
-</thead>
-<tr>
-<td>Jill</td>
-<td>Smith</td> 
-<td>50</td>
-</tr>
-<tr>
-<td>Eve</td>
-<td>Jackson</td> 
-<td>94</td>
-</tr>
-</table>
-
-A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
 ---
 
 
-# Text-level semantics
+## Fancy elements
 
-A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
 The <a href="#">a element</a> example
 The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples
@@ -223,14 +229,14 @@ The <sup>sup element</sup> example
 The <var>var element</var> example
 The <u>u element</u> example
 
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval.
+
 ---
 
 
-# Code block
+## Code block
 
-Code can be presented inline, like this `.post-full-header`.
-
-For larger block of code, you can use:
+Code can be presented inline, like this `.post-full-header`. For larger block of code, you can use:
 
 ```
 <!-- Overide CSS styles  🔥 📰 -->
@@ -311,7 +317,6 @@ For larger block of code, you can use:
         border-radius: 0px;
     }
     
-
     // Tablet resolution style {}
         
 	@media (min-width: 501px){
@@ -331,9 +336,9 @@ For larger block of code, you can use:
 ---
 
 
-# Form
+## Form
 
-There is many many options. Here is an example is using wufoo:
+A classic contact us form. This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval.
 
 <br>
 
@@ -345,22 +350,22 @@ We love to share our work on [Instagram](https://www.instagram.com/themensgroome
 ---
 
 
-# Blockquotes
+## Blockquotes
 
-A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
+This is a placeholder text to give context. You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval.
 
-> A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>
+> Based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>
 
-And here’s a bit of trailing text.
+You are about to read words that won't make sense at THIS point cause a chipotle is assigned based on the cuisine of medieval.
 
 ---
 
 
 # Buttons
 
-You can insert many button's type thanks to [unicorn-ui](http://unicorn-ui.com/buttons/).
+You can insert buttons thanks to [unicorn-ui](http://unicorn-ui.com/buttons/) librairy.
 
-## My favorites
+### Our favorite
 
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
@@ -368,20 +373,20 @@ You can insert many button's type thanks to [unicorn-ui](http://unicorn-ui.com/b
 ```
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
+```
+
+If you prefer to put many buttons **in a row**, just use `&nbsp;&nbsp;&nbsp;`. 
+
+<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>&nbsp;&nbsp;&nbsp;<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
+
+```
+<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>&nbsp;&nbsp;&nbsp;<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
 ```
 
 ---
 
-To put many buttons **in a row**, just use `&nbsp;&nbsp;&nbsp;`. 
 
-<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>&nbsp;&nbsp;&nbsp;<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
-
-```
-<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" class="button button-glow button-rounded button-raised button-primary">Live Demo</a>&nbsp;&nbsp;&nbsp;<a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/ghost/" target="_blank" class="button button-glow button-border button-rounded button-primary">Admin Panel (credits below)</a>
-```
-
-
-## Shape and Size
+### Shape and Size
 
 Choose from a variety of shapes and sizes.
 
@@ -403,6 +408,7 @@ Choose from a variety of shapes and sizes.
 
 ---
 
+
 <a href="https://play-with-ghost.com/" class="button button-action">Click Me</a>
 <a href="https://play-with-ghost.com/" class="button button-action button-rounded">Click Me</a>
 <a href="https://play-with-ghost.com/" class="button button-action button-pill">Click Me</a>
@@ -420,6 +426,7 @@ Choose from a variety of shapes and sizes.
 ```
 
 ---
+
 
 <a href="https://play-with-ghost.com/" class="button button-highlight button-large">Go</a>
 <a href="https://play-with-ghost.com/" class="button button-highlight button-rounded button-large">Go</a>
@@ -439,6 +446,7 @@ Choose from a variety of shapes and sizes.
 
 ---
 
+
 <a href="https://play-with-ghost.com/" class="button button-caution button-jumbo">Go</a>
 <a href="https://play-with-ghost.com/" class="button button-caution button-rounded button-jumbo">Go</a>
 <a href="https://play-with-ghost.com/" class="button button-caution button-pill button-jumbo">Go</a>
@@ -457,6 +465,7 @@ Choose from a variety of shapes and sizes.
 
 ---
 
+
 <a href="https://play-with-ghost.com/" class="button button-royal button-giant">Go</a>
 <a href="https://play-with-ghost.com/" class="button button-royal button-rounded button-giant">Go</a>
 <a href="https://play-with-ghost.com/" class="button button-royal button-pill button-giant">Go</a>
@@ -473,7 +482,10 @@ Choose from a variety of shapes and sizes.
 <a href="https://play-with-ghost.com/" class="button button-royal button-circle button-giant"><i class="fas fa-plus"></i></a>
 ```
 
-## BORDER & BORDERLESS BUTTONS
+---
+
+
+### BORDER & BORDERLESS BUTTONS
 
 Icons provided by Font Awesome Great for mobile devices
 
@@ -489,8 +501,10 @@ Icons provided by Font Awesome Great for mobile devices
 <a href="https://play-with-ghost.com/" class="button button-large button-primary button-borderless"><i class="fas fa-tag"></i></a>
 ```
 
+---
 
-## 3D BUTTONS
+
+### 3D BUTTONS
 
 Mimics the appearance of a real life button
 
@@ -510,7 +524,10 @@ Mimics the appearance of a real life button
 <a href="https://play-with-ghost.com/" class="button button-3d button-royal">Say Hi!</a>
 ```
 
-## RAISED BUTTONS
+---
+
+
+### RAISED BUTTONS
 
 A classic looking button that offers great depth and affordance
 
@@ -528,8 +545,10 @@ A classic looking button that offers great depth and affordance
 <a href="https://play-with-ghost.com/" class="button button-raised button-pill button-inverse">Say Hi!</a>
 ```
 
+---
 
-## GLOWING
+
+### GLOWING
 
 A pulse like glow around the edges of a button
 
@@ -549,7 +568,10 @@ A pulse like glow around the edges of a button
 <a href="https://play-with-ghost.com/" class="button button-glow button-rounded button-royal">Go</a>
 ```
 
-## BUTTONS GROUPS
+---
+
+
+### BUTTONS GROUPS
 
 A group of related buttons displayed edge to edge
 
@@ -569,6 +591,7 @@ A group of related buttons displayed edge to edge
 
 ---
 
+
 <div class="button-group">
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" type="button" class="button button-pill button-action">Klimax1</a>
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax2-for-barbershops/" target="_blank" type="button" class="button button-pill button-action">Klimax2</a>
@@ -585,6 +608,7 @@ A group of related buttons displayed edge to edge
 
 ---
 
+
 <div class="button-group">
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax1-for-barbershops/" target="_blank" type="button" class="button button-royal button-rounded button-raised">Klimax1</a>
 <a href="https://play-with-ghost.com/live-demo-firepress-klimax2-for-barbershops/" target="_blank" type="button" class="button button-royal button-rounded button-raised">Klimax2</a>
@@ -599,7 +623,10 @@ A group of related buttons displayed edge to edge
 </div>
 ```
 
-## STACKED BUTTONS
+---
+
+
+### STACKED BUTTONS
 
 Block level buttons that expand the width of their container
 
@@ -619,7 +646,10 @@ Block level buttons that expand the width of their container
 <a href="https://play-with-ghost.com/" class="button button-block button-rounded button-royal button-large">Go</a>
 ```
 
-## TYOGRAPHIC STYLES
+---
+
+
+### TYOGRAPHIC STYLES
 
 A variety of tyographic styles for buttons
 
@@ -638,9 +668,11 @@ A variety of tyographic styles for buttons
 ---
 
 
-# Embedded content
+## Embedded content
 
 Sometimes all you want to do is embed a little love from another location and set your post alive.
+
+<br>
 
 ### Youtube
 
@@ -648,15 +680,17 @@ A chipotle is assigned based on the cuisine of medieval. Muffins, foods that wer
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NikceQYbaBY" frameborder="0" allowfullscreen></iframe>
 
+<br>
+
 ### Vimeo
 
 Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
 <iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-### Slides
-
 <br>
+
+### Slides
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/e8apLGIsmfqmZU" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
@@ -664,12 +698,12 @@ Combine that are harvested at that mysteriously rich, sweet and political change
 
 Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.
 
+<br>
+
 ### Soundcloud
 
 A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations.
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141047724&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-*Combine that are harvested at that mysteriously rich, sweet and political changes for this cake.*
-
-What's not to love?
+Did we forgot to include something ? Did you see a glitch? Please buzz me [on Twitter](https://twitter.com/askpascalandy) and I'll update it! Thank for beeing curious!
