@@ -121,6 +121,29 @@ This is a placeholder text to give context. You are about to read words that won
 
 Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
 
+
+## Inline HTML
+
+You can also use raw HTML in your Markdown, and it'll mostly work pretty well. This example was taken [from here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#inline-html).
+
+```
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+```
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
 ---
 
 
