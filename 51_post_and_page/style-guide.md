@@ -288,10 +288,23 @@ Just because we can, let's hack a **bigger space** between the two columns:
 
 Another way to create tables is to use plain markdown. 
 
-**Allignement:** description: left, price: right 
+**Allignement:** description is left, price is right 
 
 | Description                   | Price |
-| :------                       | ---: |
+| :-----------------------------| ----: |
+| Black top pomade              | $25   |
+| Fiber pomade                  | $20   |
+| Free form cream               | $24   |
+| Matte pomade paste            | $24   |
+
+<br>
+
+This is a placeholder text to give context. You are about to read words that won't make sense. This text is used as a filler. Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
+
+**Allignement:** description is left, price is left 
+
+| Description                   | Price |
+| :-----------------------------| :--- |
 | Black top pomade              | $25 |
 | Fiber pomade                  | $20 |
 | Free form cream               | $24 |
@@ -299,16 +312,24 @@ Another way to create tables is to use plain markdown.
 
 <br>
 
-This is a placeholder text to give context. You are about to read words that won't make sense. This text is used as a filler. Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
+Here is an example with **three** columns.
 
-**Allignement:** description: left, price: left 
+| Name          | Details        | Cost  |
+| ------------- | :------------: | -----:|
+| col 3 is      | right-aligned  | $1600 |
+| col 2 is      | centered       |   $12 |
+| zebra stripes | are neat       |    $1 |
 
-| Description                   | Price |
-| :------                       | :--- |
-| Black top pomade              | $25 |
-| Fiber pomade                  | $20 |
-| Free form cream               | $24 |
-| Matte pomade paste            | $24 |
+<br>
+
+Here is an example with **four** columns. You see that you don't have to allign your markdown perfectly in order to export a great table.
+
+| Fistname      | Lastname       | City        | Age  |
+| :------------ | :--------------| :-----------| :----|
+| Jimmy         | Row            | Montréal    | 26 |
+| Martine         | Nadal            | Québec    | 32 |
+| Philippe | Green | Seatle | 43 |
+| Mary | Woodstock | Edmunston | 22 |
 
 <br>
 
