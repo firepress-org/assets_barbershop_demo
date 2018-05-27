@@ -1,17 +1,19 @@
 ## Learn by imitation
 
-Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass**.
+**To see the markdown source of this page**:
+
+1. Go to [play-with-ghost](https://play-with-ghost.com/)
+2. Select a live demo like [FirePress Klimax1](https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/)
+3. Access the `admin panel
+4. Log in using the provided credentials
+5. Then search for the page `style guide`
+6. See how it was done!
+
+Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass** to do everything you want with your content.
 
 The purpose of the content below is to show you how you can style your content with Ghost. You won't need everything. Just remember it's here if you ever need it.
 
-To see the original **markdown formatting of this page**:
-
-1. Go to https://play-with-ghost.com/
-2. Select one live demo website
-3. Log into the admin panel
-4. Find the page named <kbd>Style guide</kbd>.
-
-Let's start, shall we?
+🚀🚀🚀 Let's start, shall we?
 
 ---
 
@@ -101,14 +103,37 @@ Here are the things I am doing at the moment:
 
 ## Form
 
-We embed this form provided by [Wufoo](https://www.wufoo.com/).
+There are many ways to embed a form in your website. The classic use case is the have a **contact us** form.
+
+### Option #1 | formspree
+
+[formspree](https://formspree.io/) is the most simple way to have a form on any website. This includes Ghost of course! Use the code below and use your own email. In this example we use `youremail@here.com`. formspree will send you an email to confirm your email and you will start to receive your messages.
+
+<form method="POST" action="https://formspree.io/youremail@here.com">
+  <div><input type="email" name="email" placeholder="Your email"></div>
+  <div><textarea name="message" placeholder="Your message"></textarea></div>
+  <button type="submit">Send</button>
+</form>
 
 <br>
+
+This is a placeholder text to give context. You are about to read words that won't make sense, and this is fine. At the moment, the goal is to build a structure for our site.
+
+### Option #2 | third party service
+
+You can also use a third party service like [Wufoo](https://www.wufoo.com/) or [Typeform](https://www.typeform.com/pricing/).
+
+We embed this form provided by [Wufoo](https://www.wufoo.com/).
 
 <iframe height="401" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://firepressorg.wufoo.com/embed/zyr0snn1ad9rvs/">
 </iframe>
 
 This is a placeholder text to give context. You are about to read words that won't make sense, and this is fine. At the moment, the goal is to build a structure for our site.
+
+
+### Option #3 | via your CRM
+
+Maybe you want something more organised than a simple email. What about having all your messages going thru a CRM? [See this example](https://support.airtable.com/hc/en-us/articles/206058268-How-to-create-a-form-with-Airtable) by Airtable.
 
 ---
 
@@ -143,6 +168,28 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well. T
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
+
+---
+
+
+## emoji or emoticon
+
+* ✨ star
+* 🚀 launch
+* ⚡️ lightning
+* 🐛 Bug
+* 🙈 damm me
+* ⚠️ warning
+* 🎨 design
+* 💥 bamm
+* 🦄 licorn
+* 🛠 parameters
+* 🔥 fire
+* 🎉 hellyes
+* 🙌 blessed
+* 🚫 stop
+
+See them all [here](https://getemoji.com/)
 
 ---
 
@@ -379,7 +426,7 @@ This works as well but we find it's behavior more difficult to predict and it's 
 				<li>Includes a landing page and a Ghost installation</li>
 				<li>A subtle FirePress link on the landing page (1)</li>
 				<li>Get <strong>two months free</strong> when subscribing for the whole year</li><br>
-				<p><a href="https://play-with-ghost.com/ghost-themes/get-your-free-10-day-trial-on-ghost/" class="button button-block button-primary button-rounded">Start your 10-Day trial ></a></p>
+				<p><a href="https://play-with-ghost.com/ghost-themes/free-10-day-trial/" class="button button-block button-primary button-rounded">Start your 10-Day trial ></a></p>
 			</ul>
 		</td>
 		<td style="width:15%;"><br>
@@ -970,4 +1017,4 @@ q	r	s	t	u	v	w	x	y	z
 
 ## <i class="far fa-smile fa-lg"></i> Trial
 
-<mark>Considering Ghost to build your next website?</mark> Sign-up today to get your [free 10-Day trial](https://play-with-ghost.com/ghost-themes/get-your-free-10-day-trial-on-ghost/). We will take care of your projet with our fully managed hosting service. The hosting is provided by FirePress, the official play-with-ghost's sponsor. [Start your trial](https://play-with-ghost.com/ghost-themes/get-your-free-10-day-trial-on-ghost/) today!
+<mark>Considering Ghost to build your next website?</mark> Sign-up today to get your [free 10-Day trial](https://play-with-ghost.com/ghost-themes/free-10-day-trial/). We will take care of your projet with our fully managed hosting service. The hosting is provided by FirePress, the official play-with-ghost's sponsor. [Start your trial](https://play-with-ghost.com/ghost-themes/free-10-day-trial/) today!
