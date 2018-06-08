@@ -4,9 +4,9 @@ Here is how to **see markdown's source for this page**:
 
 1. Go to [play-with-ghost](https://play-with-ghost.com/)
 2. Select a live demo like [FirePress Klimax1](https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/)
-3. Access the `admin panel` by 
-4. Log in using these credentials `relations@firepress.org / firepress1`
-5. In the section `Stories` look for the page `style guide`
+3. Click the button `admin panel`
+    - Use these credentials `relations@firepress.org / firepress1`
+5. In the section `Stories` look for the page `Style guide`
 6. There you go!
 
 Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass** to do everything you want with your content.
