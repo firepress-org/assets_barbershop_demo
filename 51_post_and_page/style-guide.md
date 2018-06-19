@@ -5,15 +5,17 @@ Here is how to **see markdown's source for this page**:
 1. Go to [play-with-ghost](https://play-with-ghost.com/)
 2. Select a live demo like [FirePress Klimax1](https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/)
 3. Click the button `admin panel`
-    - Use these credentials `relations@firepress.org / firepress1`
+    - To log in, use these credentials `relations@firepress.org / firepress1`
 5. In the section `Stories` look for the page `Style guide`
-6. There you go!
+6. There you go, the source are available to you. That's the beauty of opening sources to the world.
 
 Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass** to do everything you want with your content.
 
-The purpose of the content below is to show you how you can style your content with Ghost. You won't need everything. Just remember it's here if you ever need it.
+The purpose of the content below is to show you how you can style your content with Ghost. You probably won't need everything shown below but just remember, it is here if you ever need it.
 
-🚀🚀🚀 Let's start, shall we?
+Let's start, shall we? 🚀🚀🚀
+
+<br>
 
 ---
 
@@ -22,12 +24,12 @@ The purpose of the content below is to show you how you can style your content w
 
 **This is bold** and this is *italic*. You can create an *absolute* link [like this one](https://twitter.com/askpascalandy). You can create a *relative* link to pages and posts within your [own website](../style-guide/).
 
-Sometimes you want to have your visitor to open a **link into a new tab**. This is where you can <a href="https://twitter.com/askpascalandy" target="_blank">find me on Twitter</a>
+Sometimes you want to have your visitor open a **link into a new tab**. This is where you can <a href="https://twitter.com/askpascalandy" target="_blank">find me on Twitter</a>
 
 Everyone loves straight to the point **bullet points**:
 
-- The first rule is: be honest
-- The second rule is: see rule number one
+- The first rule is: Be honest
+- The second rule is: See rule number one
 - Rule number #3 should be here too
 
 
@@ -49,17 +51,16 @@ The <kbd>kbd element</kbd> example
 ## Image
 
 
-This is a placeholder text to give context. You are about to read words that won't make sense at that are harvested at that mysteriously rich. Thanks to [Icons8](https://photos.icons8.com/) for the picture.
+This is a placeholder text to give context. You are about to read words that won't make sense that are harvested at that mysteriously rich. Thanks to [Icons8](https://photos.icons8.com/) for the picture.
 
 ![summer-is-the-best-time-of-the-year-2-b](https://play-with-ghost.com/ghost-themes/content/images/2018/05/summer-is-the-best-time-of-the-year-2-b.jpg)
 
-This is a placeholder text to give context. You are about to read words that won't make sense. This text is used as a filler. Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
+This is a placeholder text to give context. You are about to read words that won't make sense. Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
 
-### Clickable image
+## Clickable image
 
 We need two things: a URL and a picture.
-Think: « I don't want to click a text, I want to click an image.
-[See this GIF](https://cl.ly/3U0G3a2D412g) to do it.
+Think: « I don't want to click a text, I want to click an image. [Here is a GIF](https://cl.ly/3U0G3a2D412g) that shows you how to do it.
 
 [![follow-me](https://play-with-ghost.com/ghost-themes/content/images/2018/05/follow-me.jpg)](https://twitter.com/askpascalandy)
 
@@ -68,7 +69,7 @@ Think: « I don't want to click a text, I want to click an image.
 
 ## Title & headers
 
-We cannot live without headers.
+It would be hard to live without those beautiful headers.
 
 # Heading  h1
 ## Heading h2
@@ -88,6 +89,7 @@ It looks like all the cool kids are trusting Ghost as their CMS (content managem
 2. The analytic app [Fullstory](https://blog.fullstory.com/)
 3. StackOverflow and Discourse founder's blog [Codinghorror](https://blog.codinghorror.com/)
 4. Jannis is a cool coder [blog](https://jann.is/ipad-pro-for-programming/)
+5. There is even more —> [check this out](https://play-with-ghost.com/ghost-themes/websites-and-blogs-made-with-ghost/).
 
 ## Unordered List
 
@@ -96,22 +98,22 @@ Here are the things I am doing at the moment:
 - The **startup** life. I'm Building [FirePress](https://firepress.org/):
     - You can see the public **roadmap** on [trello](https://trello.com/b/0fCwwzqc/firepress-public-roadmap).
     - You can [listen](https://soundcloud.com/pascalandy/the-why-2016-06-04-20h01) **why** I decided to start this project.
-- *Sold my fancy car about four weeks ago. I'm surprised to say I don't miss it. I made this move to put the cash in my startup while as I do bootstrap it.*
+- *Sold my fancy car about four weeks ago. I'm surprised to say I don't miss it. I made this move to put the cash into my startup while I bootstrap it.*
 
 ---
 
 
 ## Form
 
-There are many ways to embed a form in your website. The classic use case is the have a **contact us** form.
+There are many ways to embed a form into your website. The classic use case is to have a **contact us** form.
 
 ### Option #1 | formspree
 
 [formspree](https://formspree.io/) is the most simple way to have a form on any website. This includes Ghost of course! Use the code below and use your own email. In this example we use `youremail@here.com`. formspree will send you an email to confirm your email and you will start to receive your messages.
 
 <form method="POST" action="https://formspree.io/youremail@here.com">
-  <div><input type="email" name="email" placeholder="Your email"></div>
-  <div><textarea name="message" placeholder="Your message"></textarea></div>
+  <div><input type="email" name="email" placeholder="Your email"></div><br>
+  <div><textarea name="message" placeholder="Your message"></textarea></div><br>
   <button type="submit">Send</button>
 </form>
 
@@ -387,7 +389,7 @@ This is a placeholder text to give context. You are about to read words that won
 
 ## Option 3) HTML table
 
-This works as well but we find it's behavior more difficult to predict and it's trickier to edit.
+We are aware that some tables below are **not pretty**. The reason is simple. Create different table style is hard. At least with those examples, it will help you define what is good and what is not.
 
 ### Variation A
 
@@ -471,16 +473,16 @@ This works as well but we find it's behavior more difficult to predict and it's 
 </tr>
 <tr>
 <td>Item green</td>
-<td>19$</td>
+<td>$19</td>
 </tr>
 <tr class="even">
 <td>Item red</td>
-<td>24$</td>
+<td>$24</td>
 </tr>
 </tr>
 <tr class="even">
 <td>Item yellow</td>
-<td>1500$</td>
+<td>$1500</td>
 </tr>
 </tbody>
 </table>
@@ -490,16 +492,16 @@ This works as well but we find it's behavior more difficult to predict and it's 
 <table width="100%">
 <tbody>
 <td style="width:72%;">Item green</td>
-<td>19$</td>
+<td>$19</td>
 </tr>
 <tr>
 <td style="width:28%;">Item red</td>
-<td>24$</td>
+<td>$24</td>
 </tr>
 </tr>
 <tr>
 <td>Item yellow</td>
-<td>1500$</td>
+<td>$1500</td>
 </tr>
 </tbody>
 </table>
@@ -516,7 +518,7 @@ This works as well but we find it's behavior more difficult to predict and it's 
 <li>Some details here 3</li>
 </ul></td>
 <td style="width:15%;"><br>
-<strong>89$</strong></td> 
+<strong>$89</strong></td> 
 </tbody>
 </table>
 
@@ -680,7 +682,7 @@ Checkout for more [use cases here](https://fontawesome.com/how-to-use/svg-with-j
 Sometimes all you want to do is embed a little love from another location and set your post alive.
 
 
-### Youtube
+### YouTube
 
 A chipotle is assigned based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations.
 
@@ -726,7 +728,7 @@ A chipotle is assigned based on the cuisine of medieval. Muffins, foods that wer
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/141047724&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 ```
 
-Did we forgot to include something ? Did you see a glitch? Please buzz me [on Twitter](https://twitter.com/askpascalandy) and I'll update it! Thank for beeing curious!
+Did we forgot to include something ? Did you see a glitch? Please buzz me [on Twitter](https://twitter.com/askpascalandy) and I'll update it! Thank for being curious!
 
 ---
 
@@ -747,9 +749,7 @@ Here are more details if you are *(really)* interested:
 3. The attribute `button-primary` defines the blue **color**. 
 4. The attribute `button-rounded` define the button's **shape**.
 
-In the section below, see the **three main attributes** you can chose from to create the button of you dreams (or kind of ...).
-
-There is **more styles available** if your are curious. Just copy-paste [this markdown content](https://raw.githubusercontent.com/firepress-org/Ghost-Theme_Assets/master/markdown/button-elements.md) into your Ghost editor and see for yourself.
+In the section below, see the **three main attributes** you can chose from to create the button of your dreams (or kind of ...).
 
 ---
 
@@ -814,7 +814,7 @@ There is **more styles available** if your are curious. Just copy-paste [this ma
 ---
 
 
-### 3) Buttons shape
+### 3) Button's shape
 <br>
 
 #### button-rounded
@@ -871,7 +871,7 @@ Very practical when you want to navigate within a big page.
 
 ## Footnotes
 
-This is very practical to reference something in your content [^1]. Most poeple use it when they have a lot of references in their content [^2].
+This is very practical to reference something in your content [^1]. Most people use it when they have a lot of references in their content [^2].
 
 [^1]: https://en.wikipedia.org/wiki/Nelson_Mandela
 [^2]: https://en.wikipedia.org/wiki/Content
@@ -886,7 +886,8 @@ This is very practical to reference something in your content [^1]. Most poeple 
 Code can be presented inline, like this `.post-full-header`. For larger block of code, you can use:
 
 ```
-<!-- Overide CSS styles  🔥 📰 -->
+<!-- Overide CSS styles 🔥 📰 -->
+
 <style>
     
     // Menu font size {}
@@ -915,67 +916,6 @@ Code can be presented inline, like this `.post-full-header`. For larger block of
     .post-full-content {
 	border-radius: 6px 6px 0px 0px;
 	}
-    // Menu background margins {}
-    .site-header {
-    padding-top: 12px;
-    padding-bottom: 15px;
-    background-color: rgb(9, 10, 11);
-    color: #fff;
-	}
-    // Image roudness in contents {}
-    .post-full-content img {
-    	border-radius: 6px;
-	}
-     // Title backgorund {}
-    .post-full-header {
-        position: absolute;
-        padding: 3vw 3vw 3vw;
-        background: rgba(0, 0, 0, 0.58);
-        border-radius: 6px;
-        margin: 16vw auto;
-        width: 100%;
-	}
-     // Content first paragraph size {}
-    .post-template .kg-card-markdown > p:first-child {
-        font-size: 1.0em;
-        line-height: 1.5em;
-	}
-    // Footer spacing {}
-    .site-footer {
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #fff;
-    background: #000;
-	}
-    // Mobile resolution style {}
-    
-    @media (max-width: 500px){
-    body.is-home .header-logo {
-        height: 64px;
-	}
-    img.site-logo {
-    	max-height: 25vw!important;
-	}
-    .site-description {
-    font-size: 1.5rem;
-	}
-    .post-full-image {
-        border-radius: 0px;
-    }
-    
-    // Tablet resolution style {}
-        
-	@media (min-width: 501px){
-    .post-full-header {
-        margin: 15vw auto;
-	}
-    img.site-logo {
-    	max-height: 25vw!important;
-	}
-    .post-full-image {
-        border-radius: 0px;
-    }   
 
 </style>
 ```
@@ -983,10 +923,9 @@ Code can be presented inline, like this `.post-full-header`. For larger block of
 ---
 
 
-
 <a id="trial"></a>
 
-## <i class="far fa-smile fa-lg"></i> Latin Character check 
+## <i class="far fa-keyboard"></i> Latin Character check 
 
 These are the most common Latin characters. It ensure this theme supports them.
 
@@ -1017,4 +956,4 @@ q	r	s	t	u	v	w	x	y	z
 
 ## <i class="far fa-smile fa-lg"></i> Trial
 
-<mark>Considering Ghost to build your next website?</mark> Sign-up today to get your [free 10-Day trial](https://play-with-ghost.com/ghost-themes/free-10-day-trial/). We will take care of your projet with our fully managed hosting service. The hosting is provided by FirePress, the official play-with-ghost's sponsor. [Start your trial](https://play-with-ghost.com/ghost-themes/free-10-day-trial/) today!
+**Are you considering Ghost to build your next website?** Sign-up today to get your [free 10-Day trial](https://play-with-ghost.com/ghost-themes/free-10-day-trial/). We will take care of your project with our fully managed hosting service. The hosting is provided by FirePress, the official play-with-ghost's sponsor. <mark>[Start your trial today](https://play-with-ghost.com/ghost-themes/free-10-day-trial/)</mark>!
