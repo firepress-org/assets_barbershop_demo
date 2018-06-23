@@ -1,17 +1,20 @@
 ## Learn by imitation
 
+Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass** to do everything you want with your content.
+
+The purpose of the content below is to show you how you can style your content with Ghost. We build this page as one of the **most exhaustive markdown reference** you can find on the web. You probably won't need everything shown below but just remember, it is here if you ever need it.
+
+
+### Source
+
 Here is how to **see markdown's source for this page**:
 
 1. Go to [play-with-ghost](https://play-with-ghost.com/)
 2. Select a live demo like [FirePress Klimax1](https://play-with-ghost.com/ghost-themes/firepress-klimax1-for-barbershops/)
 3. Click the button `admin panel`
-    - To log in, use these credentials `relations@firepress.org / firepress1`
+4. Log in with these credentials `relations@firepress.org / firepress1`
 5. In the section `Stories` look for the page `Style guide`
-6. There you go, the source are available to you. That's the beauty of opening sources to the world.
-
-Now that you know the basics of [how to use Ghost](https://play-with-ghost.com/ghost-themes/learn/), it's now time to edit your content seriously. See this page as your **compass** to do everything you want with your content.
-
-The purpose of the content below is to show you how you can style your content with Ghost. You probably won't need everything shown below but just remember, it is here if you ever need it.
+6. There you go, the source are available to you ✨
 
 Let's start, shall we? 🚀🚀🚀
 
@@ -93,12 +96,14 @@ It looks like all the cool kids are trusting Ghost as their CMS (content managem
 
 ## Unordered List
 
-Here are the things I am doing at the moment:
+From Pascal Andy's [now page](https://pascalandy.com/blog/now/):
 
-- The **startup** life. I'm Building [FirePress](https://firepress.org/):
-    - You can see the public **roadmap** on [trello](https://trello.com/b/0fCwwzqc/firepress-public-roadmap).
-    - You can [listen](https://soundcloud.com/pascalandy/the-why-2016-06-04-20h01) **why** I decided to start this project.
-- *Sold my fancy car about four weeks ago. I'm surprised to say I don't miss it. I made this move to put the cash into my startup while I bootstrap it.*
+- I'm building & bootstraping **FirePress**. You can see [why here](https://play-with-ghost.com/ghost-themes/tag/roots/)
+- You can see the **MVP** on [play-with-ghost](https://play-with-ghost.com/).
+- See the **public roadmap** [on Trello](https://trello.com/c/XuZdhxxv/17-start-here-firepress-public-roadmap)
+- As a **developer** I tackle these [challenges](https://firepress.org/blog/technical-challenges-we-are-facing-now/) every day.
+    - I have solid skills on Linux, Docker and Bash
+- You have the soul of an **early adopter**? The beta is [open for you](https://play-with-ghost.com/ghost-themes/early-adopters-plan/).
 
 ---
 
@@ -125,12 +130,10 @@ This is a placeholder text to give context. You are about to read words that won
 
 You can also use a third party service like [Wufoo](https://www.wufoo.com/) or [Typeform](https://www.typeform.com/pricing/).
 
-We embed this form provided by [Wufoo](https://www.wufoo.com/).
-
 <iframe height="401" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://firepressorg.wufoo.com/embed/zyr0snn1ad9rvs/">
 </iframe>
 
-This is a placeholder text to give context. You are about to read words that won't make sense, and this is fine. At the moment, the goal is to build a structure for our site.
+This is a placeholder text to give context. You are about to read words that won't make sense, and this is fine. At the moment, the goal is to build a structure for our site. This showcase is brought to you by [play-with-ghost.com](https://play-with-ghost.com/)
 
 
 ### Option #3 | via your CRM
@@ -147,6 +150,8 @@ This is a placeholder text to give context. You are about to read words that won
 > Based on the cuisine of medieval. Muffins, foods that were used widely in combination with variations. Combine that are harvested at that mysteriously rich, sweet and political changes for this cake. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>
 
 Words that will follow won't make any sense, and this is fine. At the moment, the goal is to build a structure for our site.
+
+---
 
 
 ## Inline HTML
@@ -174,14 +179,18 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well. T
 ---
 
 
-## emoji or emoticon
+## Emoji (emoticon)
 
+* 😂 LOL
+* 😊 smiling
+* 🤔 thinking
 * ✨ star
 * 🚀 launch
 * ⚡️ lightning
-* 🐛 Bug
+* ❤️ heart
+* 👍 Thumbs Up
 * 🙈 damm me
-* ⚠️ warning
+* 🇨🇦 Canada flag
 * 🎨 design
 * 💥 bamm
 * 🦄 licorn
@@ -189,9 +198,12 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well. T
 * 🔥 fire
 * 🎉 hellyes
 * 🙌 blessed
+* ⚽ World Cup
+* 🐛 bug
+* ⚠️ warning
 * 🚫 stop
 
-See them all [here](https://getemoji.com/)
+See them all [here](https://getemoji.com/) at emojipedia.org
 
 ---
 
@@ -202,8 +214,9 @@ There are 3 ways to edit a table.
 
 ## Option 1) Grid table
 
-The **best way** to do it is by using a grid system. We use [this one](http://thisisdallas.github.io/Simple-Grid/). This is a classic **pricing table** with a ratio of: `10/12` on the left and `2/12` on the right.
+The **best way** to do create table is to use the grid system. We use [this one](http://thisisdallas.github.io/Simple-Grid/). This is a classic **pricing table** with a ratio of: `10/12` on the left and `2/12` on the right.
 
+<br><br>
 
 ### Our Pizzas
 
@@ -214,12 +227,12 @@ The **best way** to do it is by using a grid system. We use [this one](http://th
 		<div class="content">
 			<strong>The Montréal Special</strong><br>
 			<em>Fresh basil, mozzarella and olive oil
-            Mozzarella di buffala (+4$), Anchovies (+ 1$)</em>
+            Mozzarella di buffala (+$4), Anchovies (+ $1)</em>
 		</div>
 	</div>
 	<div class="col-2-12 mobile-col-2-12">
-		<div class="content right">
-			<strong>21$</strong>
+		<div class="content push-right">
+			<strong>$21</strong>
 		</div>
 	</div>
 </div>
@@ -232,7 +245,7 @@ The **best way** to do it is by using a grid system. We use [this one](http://th
 		</div>
 	</div>
 	<div class="col-2-12 mobile-col-2-12">
-		<div class="content right">
+		<div class="content push-right">
 			<strong>18$</strong>
 		</div>
 	</div>
@@ -246,7 +259,7 @@ The **best way** to do it is by using a grid system. We use [this one](http://th
 		</div>
 	</div>
 	<div class="col-2-12 mobile-col-2-12">
-		<div class="content right">
+		<div class="content push-right">
 			<strong>24$</strong>
 		</div>
 	</div>
@@ -256,40 +269,55 @@ The **best way** to do it is by using a grid system. We use [this one](http://th
 
 ### Corporate services
 
-**The Blue plan includes:**
-
-<div class="grid">
-	<div class="col-10-12 mobile-col-10-12">
-		<div class="content">
-			● Publish original content on 3 social networks<br> ● Once a day<br> ● 5 days a week<br> ● Billed each month
-		</div>
-	</div>
-	<div class="col-2-12 mobile-col-2-12">
-		<div class="content push-right">
-			1475$
-		</div>
-	</div>
-</div>
-
-**The Green plan includes:**
-
-<div class="grid">
-	<div class="col-10-12 mobile-col-10-12">
-		<div class="content">
-			<i class="far fa-check-square"></i> &nbsp; Publish original content on 3 social networks<br> <i class="far fa-check-square"></i> &nbsp; Twice a day<br> <i class="far fa-check-square"></i> &nbsp; 5 days a week<br> <i class="far fa-check-square"></i> &nbsp; Billed each month
-		</div>
-	</div>
-	<div class="col-2-12 mobile-col-2-12">
-		<div class="content push-right">
-			2495$
-		</div>
-	</div>
-</div>
+Let's go deepter. See how we use `&nbsp;` (non breakable space) in order to create a *whitespace* in the lists below:
 
 <br>
+<div class="grid">
+	<div class="col-10-12 mobile-col-10-12">
+		<div class="content">
+			<strong>The Blue plan includes:</strong><br>
+            &nbsp;&nbsp;🎨 Publish original content on 3 social networks<br> &nbsp;&nbsp;🎨 Once a day<br> &nbsp;&nbsp;🎨 5 days a week<br> &nbsp;&nbsp;🎨 Billed each month
+		</div>
+	</div>
+	<div class="col-2-12 mobile-col-2-12">
+		<div class="content push-right">
+			<strong>$1475</strong>
+		</div>
+	</div>
+</div>
+<br>
+<div class="grid">
+	<div class="col-10-12 mobile-col-10-12">
+		<div class="content">
+            <strong>The Green plan includes:</strong><br>
+			&nbsp;&nbsp;<i class="far fa-check-square"></i> &nbsp; Publish original content on 3 social networks<br>&nbsp;&nbsp;<i class="far fa-check-square">&nbsp;&nbsp;</i> &nbsp; Twice a day<br>&nbsp;&nbsp;<i class="far fa-check-square"></i> &nbsp; 5 days a week<br>&nbsp;&nbsp;<i class="far fa-check-square"></i> &nbsp; Billed each month
+		</div>
+	</div>
+	<div class="col-2-12 mobile-col-2-12">
+		<div class="content push-right">
+			<strong>$2495</strong>
+		</div>
+	</div>
+</div>
+<br>
+
+*Without the whitespace using `&nbsp;`:*
+
+<div class="grid">
+	<div class="col-10-12 mobile-col-10-12">
+		<div class="content">
+            <strong>The Green plan includes:</strong><br>
+			<i class="far fa-check-square"></i> &nbsp; Publish original content on 3 social networks<br> <i class="far fa-check-square">&nbsp;&nbsp;</i> &nbsp; Twice a day<br> <i class="far fa-check-square"></i> &nbsp; 5 days a week<br> <i class="far fa-check-square"></i> &nbsp; Billed each month
+		</div>
+	</div>
+	<div class="col-2-12 mobile-col-2-12">
+		<div class="content push-right">
+			<strong>$2495</strong>
+		</div>
+	</div>
+</div>
 
 ---
-
 
 Here is a classic **50/50 table** with a ratio of: `6/12` on the left and `6/12` on the right. 
 
@@ -432,7 +460,7 @@ We are aware that some tables below are **not pretty**. The reason is simple. Cr
 			</ul>
 		</td>
 		<td style="width:15%;"><br>
-			<strong>15$</strong> /month</td>
+			<strong>$15</strong> /month</td>
 	</tbody>
 </table>
 
@@ -537,11 +565,15 @@ We are aware that some tables below are **not pretty**. The reason is simple. Cr
 
 ## We <i class="far fa-heart"></i> icons
 
-You have access to more than [2700 icons](https://fontawesome.com/icons) thanks to the folks at Font Awesome. Icons are added with snippets. A snippet is a small piece of code. **Search and find** the icon you want at [Font Awesome](https://fontawesome.com/icons).
+You have access to more than [2700 icons](https://fontawesome.com/icons) thanks to the folks at Font Awesome. Icons are added with snippets. A snippet is a small piece of code. **Search and find** the free icon you want on [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free).
 
-Per example, Font Awesome is designed to be used with inline elements. Using `<i class="fas fa-camera-retro"></i>` looks like: <i class="fas fa-camera-retro"></i>. 
+Font Awesome is designed to be used with inline elements. Using `<i class="fas fa-camera-retro"></i>` renders this result: <i class="fas fa-camera-retro"></i>. 
 
-There are other properties you can change.
+### Preview
+
+![font-awesome-preview](https://play-with-ghost.com/ghost-themes/content/images/2018/06/font-awesome-preview.jpg)
+
+### There are other properties you can change.
 
 **Change size**:
 
@@ -858,7 +890,7 @@ In the section below, see the **three main attributes** you can chose from to cr
 
 ## Anchor
 
-Very practical when you want to navigate within a big page.
+Very practical when you want to navigate within a big page. We usually use it to create a **Table of content**.
 
 * [Footnotes section](#footnotes)
 * [Code Block](#codeblock)
